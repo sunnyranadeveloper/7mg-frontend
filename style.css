@@ -1,0 +1,36 @@
+.search-head,#entity_type:hover {
+    color: #04AA6D;
+}
+.mg-bg-color {
+    background: #04AA6D;
+    border: none;
+}
+.search-padding {
+    padding : 15px
+}
+.search-btn-padding {
+    padding: 15px 20px;
+}
+.search-page-size {
+    height: 100%;
+}
+.search-page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer span {
+    margin-right: 20px;
+}
+.footer span a {
+    text-decoration: none;
+}
+.recent-searches span {
+    padding : 8px 4px 8px 10px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.recent-searches a {
+    padding : 12px;
+}
