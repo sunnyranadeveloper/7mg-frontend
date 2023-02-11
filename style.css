@@ -6,13 +6,10 @@
     border: none;
 }
 .search-padding {
-    padding : 15px
+    /*padding : 15px*/
 }
 .search-btn-padding {
-    padding: 15px 20px;
-}
-.search-page-size {
-    height: 100%;
+    /*padding: 15px 20px;*/
 }
 .search-page-footer {
     position: fixed;
@@ -28,9 +25,17 @@
 }
 .recent-searches span {
     padding : 8px 4px 8px 10px;
-    font-weight: lighter;
     font-size: 12px;
 }
 .recent-searches a {
     padding : 12px;
+}
+/*Only for mobile devices*/
+@media only screen and (max-width: 768px) {
+    .search-head {
+        font-size: 500%;
+    }
+    .footer .col-md-6 {
+        width: 50%;
+    }
 }
